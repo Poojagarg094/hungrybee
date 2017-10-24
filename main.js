@@ -67,7 +67,7 @@ hungrybee.controller('restaurantController',function($scope,$routeParams,$http,$
 	var restaurants = [{
 		// restaurant 01
 		name: 'American Grill & Bar',
-		address: 'Flat 48, Ground Floor, Opposite Vengal Rao Park, Road 1, Banjara Hills, Hyderabad',
+		address: 'Flat 48, Ground Floor, Opposite Vengal Rao Park, Road 1, Banjara Hills, Panchkula',
 		location: 'Banjara Hills',
 		category: 'Casual Dining, Bar',
 		vote: '4.9',
@@ -144,7 +144,7 @@ hungrybee.controller('restaurantController',function($scope,$routeParams,$http,$
 	},{
 		// restaurant 03
 		name: 'Tatva',
-		address: '1st Floor,SL Jubilee, Road 36, Jubilee Hills, Hyderabad',
+		address: '1st Floor,SL Jubilee, Road 36, Jubilee Hills, Chandigarh',
 		location: 'Jubilee Hills',
 		category: 'Casual Dining',
 		vote: '4.4',
@@ -175,7 +175,7 @@ hungrybee.controller('restaurantController',function($scope,$routeParams,$http,$
 	},{
 		// restaurant 04
 		name: 'Autumn Leaf Cafe',
-		address: 'Plot 823, Road 41, Jubilee Hills, Hyderabad',
+		address: 'Plot 823, Road 41, Jubilee Hills, kolkata',
 		location: 'Jubilee Hills',
 		category: 'Café',
 		vote: '4.2',
@@ -208,8 +208,8 @@ hungrybee.controller('restaurantController',function($scope,$routeParams,$http,$
 	},{
 		// restaurant 05
 		name: 'Ciclo Cafe',
-		address: '801, Road 36, Jubilee Hills, Hyderabad',
-		location: 'Jubilee Hills',
+		address: '801, sec-5, karnal',
+		location: 'sec-5',
 		category: 'Café',
 		vote: '4.0',
 		cuisines: 'Cafe,Continental',
@@ -376,7 +376,7 @@ hungrybee.controller('mainController',function($scope,$location){
 	}
 	$scope.restaurants=[{
 		name: 'American Grill & Bar',
-		address: 'Flat 48, Ground Floor, Opposite Vengal Rao Park, Road 1, Banjara Hills, Hyderabad',
+		address: 'Flat 48, Ground Floor, Opposite Vengal Rao Park, Road 1, Banjara Hills, Panchkula',
 		location: 'Banjara Hills',
 		category: 'Casual Dining, Bar',
 		vote: '4.9',
@@ -402,7 +402,7 @@ hungrybee.controller('mainController',function($scope,$location){
 		image:'https://b.zmtcdn.com/data/pictures/chains/2/91662/6cafcbe3bb5f4478f6015cd38addd31f_featured_v2.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A'
 	},{
 		name: 'Tatva',
-		address: '1st Floor,SL Jubilee, Road 36, Jubilee Hills, Hyderabad',
+		address: '1st Floor,SL Jubilee, Road 36, Jubilee Hills, Chandigarh',
 		location: 'Jubilee Hills',
 		category: 'Casual Dining',
 		vote: '4.4',
@@ -415,7 +415,7 @@ hungrybee.controller('mainController',function($scope,$location){
 		image:'https://b.zmtcdn.com/data/pictures/3/18385313/ebebc05df55c7752db379cffe3e90a00_featured_v2.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A'
 	},{
 		name: 'Autumn Leaf Cafe',
-		address: 'Plot 823, Road 41, Jubilee Hills, Hyderabad',
+		address: 'Plot 823, Road 41, Jubilee Hills, Kolkata',
 		location: 'Jubilee Hills',
 		category: 'Café',
 		vote: '4.2',
@@ -428,8 +428,8 @@ hungrybee.controller('mainController',function($scope,$location){
 		image:'https://b.zmtcdn.com/data/pictures/1/18312961/e7b277fe90c919538dfe81d9c59dd177_featured_v2.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A'
 	},{
 		name: 'Ciclo Cafe',
-		address: '801, Road 36, Jubilee Hills, Hyderabad',
-		location: 'Jubilee Hills',
+		address: '801, sec-5, Karnal',
+		location: 'sec-5',
 		category: 'Café',
 		vote: '4.0',
 		id:5,
