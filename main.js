@@ -286,13 +286,13 @@ $scope.takeOff = function(){
 	var loginName = $('.loginName').val();
 	var loginPassword = $('.loginPassword').val();
 	// agar local storage me username aur password saved h tho uss se bhi login kr skte h ya phir jo fixed id aur pass word h wo use kr skte h
-	if(((localStorage.newUserName === loginName) && (localStorage.newUserPassword === loginPassword)) ||(loginName === 'test@acadview.com')&&( loginPassword === 'supersecret') ){
+	if(((localStorage.newUserName === loginName) && (localStorage.newUserPassword === loginPassword)) ||(loginName === 'food@lover.com')&&( loginPassword === 'hungrybee') ){
 		$('#errorReport').text('');
 		$location.url('delivery') // successfully login ho gya tho next page p le jao
 	}
 	else{
 		alert('Username or password is incorrect') //clue
-		$('#errorReport').text('if you have registered please use the latest id and password else use ID: test@acadview.com Password: supersecret')
+		$('#errorReport').text('if you have registered please use the latest id and password else use ID: food@lover.com Password: hungrybee')
 	}
 }
 $scope.backHome= function(){
@@ -301,7 +301,7 @@ $scope.backHome= function(){
 $scope.forgot = function(){
 	// agar local storage me username aur password save nhi hue h tb ye karo
 	if(localStorage.newUserName === '' ||localStorage.newUserPassword === ''){
-		$('#errorReport').text('if you have registered please use the latest id and password else use ID: test@acadview.com Password: supersecret')
+		$('#errorReport').text('if you have registered please use the latest id and password else use ID: food@lover.com Password: hungrybee')
 	}
 	else{
 		// save hogye h tho user ko wo values show karo
